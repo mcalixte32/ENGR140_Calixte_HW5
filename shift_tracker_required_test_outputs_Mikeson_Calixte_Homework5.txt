@@ -1,0 +1,119 @@
+HW5 - All Six Required Tests
+Input is listed separately because redirected input is not echoed.
+
+TEST 1: PASS
+INPUT (one number per line):
+15
+8
+6.5
+4
+-1
+
+ACTUAL OUTPUT:
+Enter your hourly pay rate ($): Enter hours for shift 1 (-1 to finish): Enter hours for shift 2 (-1 to finish): Enter hours for shift 3 (-1 to finish): Enter hours for shift 4 (-1 to finish): 
+====================================
+Weekly Shift Summary
+====================================
+Shifts worked:                 3
+Total hours:               18.50
+Average shift (hrs):        6.17
+Longest shift (hrs):        8.00
+Estimated pay ($):        277.50
+
+
+TEST 2: PASS
+INPUT (one number per line):
+-2
+0
+12.50
+5
+-1
+
+ACTUAL OUTPUT:
+Enter your hourly pay rate ($): Pay rate must be greater than 0. Try again.
+Enter your hourly pay rate ($): Pay rate must be greater than 0. Try again.
+Enter your hourly pay rate ($): Enter hours for shift 1 (-1 to finish): Enter hours for shift 2 (-1 to finish): 
+====================================
+Weekly Shift Summary
+====================================
+Shifts worked:                 1
+Total hours:                5.00
+Average shift (hrs):        5.00
+Longest shift (hrs):        5.00
+Estimated pay ($):         62.50
+
+
+TEST 3: PASS
+INPUT (one number per line):
+14
+-1
+
+ACTUAL OUTPUT:
+Enter your hourly pay rate ($): Enter hours for shift 1 (-1 to finish): No shifts entered.
+
+
+TEST 4: PASS
+INPUT (one number per line):
+16
+7
+20
+0
+9
+-1
+
+ACTUAL OUTPUT:
+Enter your hourly pay rate ($): Enter hours for shift 1 (-1 to finish): Enter hours for shift 2 (-1 to finish): Invalid shift length, skipped.
+Enter hours for shift 2 (-1 to finish): Invalid shift length, skipped.
+Enter hours for shift 2 (-1 to finish): Enter hours for shift 3 (-1 to finish): 
+====================================
+Weekly Shift Summary
+====================================
+Shifts worked:                 2
+Total hours:               16.00
+Average shift (hrs):        8.00
+Longest shift (hrs):        9.00
+Estimated pay ($):        256.00
+
+
+TEST 5: PASS
+INPUT (one number per line):
+18.25
+4.5
+4.5
+4.5
+4.5
+-1
+
+ACTUAL OUTPUT:
+Enter your hourly pay rate ($): Enter hours for shift 1 (-1 to finish): Enter hours for shift 2 (-1 to finish): Enter hours for shift 3 (-1 to finish): Enter hours for shift 4 (-1 to finish): Enter hours for shift 5 (-1 to finish): 
+====================================
+Weekly Shift Summary
+====================================
+Shifts worked:                 4
+Total hours:               18.00
+Average shift (hrs):        4.50
+Longest shift (hrs):        4.50
+Estimated pay ($):        328.50
+
+
+TEST 6: PASS
+INPUT (one number per line):
+20
+10
+10
+10
+10
+10
+-1
+
+ACTUAL OUTPUT:
+Enter your hourly pay rate ($): Enter hours for shift 1 (-1 to finish): Enter hours for shift 2 (-1 to finish): Enter hours for shift 3 (-1 to finish): Enter hours for shift 4 (-1 to finish): Enter hours for shift 5 (-1 to finish): Enter hours for shift 6 (-1 to finish): 
+====================================
+Weekly Shift Summary
+====================================
+Shifts worked:                 5
+Total hours:               50.00
+Average shift (hrs):       10.00
+Longest shift (hrs):       10.00
+Estimated pay ($):       1000.00
+
